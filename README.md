@@ -1,6 +1,5 @@
 # Sectioned Recycler View
 
-## Introduction
 So your table has a header?
 
 Avoid this:
