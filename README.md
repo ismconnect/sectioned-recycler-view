@@ -56,7 +56,7 @@ Override all required properties and methods:
             } else {
                 val view = LayoutInflater.from(parent.context)
                         .inflate(R.layout.fragment_home_item, parent, false)
-                RowViewHolder(view)
+                RowViewHolder(parent.context, view)
             }
         }
 
